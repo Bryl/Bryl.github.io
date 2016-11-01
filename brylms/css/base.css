@@ -1,0 +1,235 @@
+/******************************   
+* BODY   
+******************************/
+body {
+	background: url(../images/bkg.gif) 0 0 repeat fixed;
+}
+
+.content {
+	margin: 8px;
+	background-color: #EEE;
+	border-bottom: 2px solid #7bb60e !important;
+	/* overflow: auto; */
+	/* height: 700px; */
+}
+
+/******************************   
+* GENERAL   
+******************************/
+.text-bold {
+	font-weight: 700;
+}
+
+.font-11px {
+	font-size: 11px;
+}
+
+.font-12px {
+	font-size: 12px;
+}
+
+.font-15px {
+	font-size: 15px;
+}
+
+.font-20px {
+	font-size: 20px;
+}
+
+.width-auto {
+	width: auto;
+}
+
+.width-1 {
+	width: 1px;
+}
+
+.width-40px {
+	width: 40px;
+}
+
+.width-15 {
+	width: 15%;
+}
+
+.width-20 {
+	width: 20%;
+}
+
+.width-40 {
+	width: 40%;
+}
+
+.width-50 {
+	width: 50%;
+}
+
+.width-60 {
+	width: 60%;
+}
+
+.width-80 {
+	width: 80%;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+.green-underline {
+	border-bottom: 2px solid #7bb60e !important;
+}
+
+/******************************   
+* HEADER   
+******************************/
+.header {
+	/* font-family: Arial, Verdana, Tahoma, Helvetica, sans-serif; */
+	font-family: Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	margin: 8px;
+	vertical-align: baseline;
+	border-bottom: 2px solid #7bb60e !important;
+	color: #dcdcdc;
+}
+
+.header-logo {
+	width: 5%;
+}
+
+.header-general-info {
+	width: 65%;
+}
+
+.header-user-info {
+	width: 30%;
+	text-align: right;
+}
+
+/******************************   
+* DATA   
+******************************/
+.table {
+	margin: 0;
+}
+
+.cell {
+	height: 20px;
+	padding: 0px;
+	font-size: 11px;
+}
+
+.period {
+	height: 20px;
+	padding: 0px;
+	font-size: 11px;
+}
+
+#header-fixed {
+	position: fixed;
+	top: 0px;
+	display: none;
+}
+
+.fio {
+	background-color: #EEE;
+}
+
+.dataTable {
+	width: 100% !important;
+	font-size: 12px;
+}
+
+.search_thead {
+	padding: 0px !important;
+	padding-left: 8px !important;
+}
+
+.dataTables_info {
+	font-size: 11px;
+}
+
+.dataTables_paginate {
+	font-size: 11px;
+}
+
+.dataTables_scroll { /*border-bottom: 1px solid #111;*/
+	
+}
+
+.dataTables_scrollBody,.DTFC_LeftBodyWrapper {
+	/*border-top: 1px solid #111;*/
+	border-top: 2px solid #7bb60e !important;
+}
+
+.new-employee {
+	margin: 5px
+}
+
+.green {
+	color: #7bb60e;
+	font-weight: 700;
+}
+
+.orange {
+	color: #f18d01;
+	font-weight: 700;
+}
+
+.red {
+	color: #cc0000;
+	font-weight: 700;
+}
+
+#sr_filter {
+	width: 100%;
+	text-align: left;
+}
+
+label {
+	width: 100%;
+}
+
+input {
+	margin-left: 0 !important;
+}
+
+#sr_wrapper {
+	margin-right: 3px;
+	margin-bottom: 3px;
+}
+
+.pos-relative {
+	position: relative;
+}
+
+.info {
+	position: absolute;
+	right: -1px;
+	top: -4px;
+	z-index: 0;
+	padding: 2px;
+	font-size: 9px;
+	font-weight: 700;
+	/* color: #7bb60e; */
+	/* border: 1px solid #7bb60e !important; */
+}
+
+.ml5 {
+	margin-left: 5px;
+}
+
+.mb5 {
+	margin-bottom: 5px;
+}
+
+.mr5 {
+	margin-right: 5px;
+}
+
+.mt5 {
+	margin-top: 5px;
+}
+svg {
+	font: 10px Verdana, Arial, Tahoma, Helvetica, sans-serif;
+	
+}
