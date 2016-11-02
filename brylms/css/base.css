@@ -229,7 +229,15 @@ input {
 .mt5 {
 	margin-top: 5px;
 }
+
 svg {
 	font: 10px Verdana, Arial, Tahoma, Helvetica, sans-serif;
-	
+}
+
+.text-centered {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left !important;
 }
