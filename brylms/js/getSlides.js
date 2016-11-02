@@ -16,7 +16,7 @@ function getSlides_e_201606() {
 				$file,
 				'Отчет по расходам 2016-06',
 				'e_201606/',
-				's-expenses');
+				'o-s-expenses');
 	}
 
 	var $return = [];
@@ -25,7 +25,7 @@ function getSlides_e_201606() {
 	$return
 			.push(getObject(
 					"Операционные расходы – результаты 6М’16 года и прогноз до конца 2016 года (Группа)",
-					"m-opex f-plan",
+					"m-opex o-plan",
 					"Слайд5.jpg"));
 	$return.push(getObject(
 			"ОПУ и основные показатели (Группа)",
@@ -34,7 +34,7 @@ function getSlides_e_201606() {
 	$return.push(getObject("Динамика CIR (Группа)", "m-cir", "Слайд7.jpg"));
 	$return.push(getObject(
 			"CIR бизнес-блоков",
-			"m-cir b-cib b-cb b-rb b-bmo f-plan",
+			"m-cir b-cib b-cb b-rb b-bmo o-plan",
 			"Слайд8.jpg"));
 	$return.push(getObject(
 			"CIR Группы и влияние на него ДЗО",
@@ -63,80 +63,80 @@ function getSlides_e_201606() {
 			"Слайд14.jpg"));
 	$return.push(getObject(
 			"Персонал – расходы по категории",
-			"m-opex m-opex-pers",
+			"m-opex-pers",
 			"Слайд16.jpg"));
 	$return.push(getObject(
 			"Персонал – расходы по функциональным блокам",
-			"m-opex m-opex-pers b-cib b-cb b-rb b-bmo b-ub b-t b-risk",
+			"m-opex-pers b-cib b-cb b-rb b-bmo b-ub b-t b-risk",
 			"Слайд17.jpg"));
 	$return.push(getObject(
 			"Динамика численности",
-			"m-opex m-opex-pers",
+			"m-opex-pers",
 			"Слайд18.jpg"));
 	$return.push(getObject(
 			"Численность функциональных блоков: Динамика",
-			"m-opex m-opex-pers b-cib b-cb b-rb b-bmo b-ub b-t b-risk",
+			"m-opex-pers b-cib b-cb b-rb b-bmo b-ub b-t b-risk",
 			"Слайд19.jpg"));
 	$return.push(getObject(
 			"Численность функциональных блоков: Прогноз",
-			"m-opex m-opex-pers b-cib b-cb b-rb b-bmo b-ub b-t b-risk f-plan",
+			"m-opex-pers b-cib b-cb b-rb b-bmo b-ub b-t b-risk o-plan",
 			"Слайд20.jpg"));
 	$return.push(getObject(
 			"Недвижимость – расходы по категории",
-			"m-opex m-opex-prem",
+			"m-opex-prem",
 			"Слайд22.jpg"));
 	$return.push(getObject(
 			"Недвижимость – затраты по категории",
-			"m-capex m-capex-prem",
+			"m-capex-prem",
 			"Слайд23.jpg"));
 	$return.push(getObject(
 			"Структура и динамика портфеля недвижимости",
-			"m-opex m-capex m-opex-prem m-capex-prem",
+			"m-opex-prem m-capex-prem",
 			"Слайд24.jpg"));
 	$return.push(getObject(
 			"Структура портфеля аренды и динамика ставок",
-			"m-opex m-opex-prem",
+			"m-opex-prem",
 			"Слайд25.jpg"));
 	$return.push(getObject(
 			"Исполнение плана выбытия объектов недвижимости",
-			"m-capex m-capex-prem",
+			"m-capex-prem",
 			"Слайд26.jpg"));
 	$return.push(getObject(
 			"Информационные технологии – расходы по категории",
-			"m-opex m-opex-proj",
+			"m-opex-proj",
 			"Слайд28.jpg"));
 	$return.push(getObject(
 			"Информационные технологии – затраты по категории",
-			"m-capex m-capex-proj",
+			"m-capex-proj",
 			"Слайд29.jpg"));
 	$return
 			.push(getObject(
 					"Освоение финансового лимита и лимита на открытие (проектная деятельность)",
-					"m-capex m-capex-proj m-opex m-opex-proj",
+					"m-capex-proj m-opex-proj",
 					"Слайд30.jpg"));
 	$return.push(getObject(
 			"Бизнес-операции – расходы по категории",
-			"m-opex m-opex-bis",
+			"m-opex-bis",
 			"Слайд32.jpg"));
 	$return.push(getObject(
 			"Бизнес операции – затраты по категории",
-			"m-capex m-capex-bis",
+			"m-capex-bis",
 			"Слайд33.jpg"));
 	$return.push(getObject(
 			"Маркетинг и коммуникации – расходы по категории",
-			"m-opex m-opex-other",
+			"m-opex-other",
 			"Слайд35.jpg"));
 	$return.push(getObject(
 			"Консалтинг – расходы по категории",
-			"m-opex m-opex-other",
+			"m-opex-other",
 			"Слайд36.jpg"));
 	$return.push(getObject(
 			"Расходы по категориям. Транспорт",
-			"m-opex m-opex-other",
+			"m-opex-other",
 			"Слайд37.jpg"));
 	$return.push(getObject(
 			"Благотворительность",
-			"m-opex m-opex-other",
+			"m-opex-other",
 			"Слайд38.jpg"));
 	$return.push(getObject(
 			"Блок Т (OPEX/CAPEX)",
@@ -187,19 +187,19 @@ function getSlides_e_201606() {
 			"Слайд54.jpg"));
 	$return.push(getObject(
 			"Сегменты - Доходы и расходы (Корпоративный бизнес)",
-			"m-opex b-cb b-cb-large b-cb-medium b-cb-small b-cb-rgs b-cb-opk",
+			"m-opex b-cb-large b-cb-medium b-cb-small b-cb-rgs b-cb-opk",
 			"Слайд55.jpg"));
 	$return.push(getObject(
 			"Динамика расходов на персонал (Корпоративный бизнес)",
-			"m-opex m-opex-pers b-cb",
+			"m-opex-pers b-cb",
 			"Слайд56.jpg"));
 	$return.push(getObject(
 			"Расходы по недвижимости (Корпоративный бизнес)",
-			"m-opex m-opex-prem b-cb",
+			"m-opex-prem b-cb",
 			"Слайд57.jpg"));
 	$return.push(getObject(
 			"Недвижимость (Корпоративный бизнес)",
-			"m-opex m-opex-prem b-cb",
+			"m-opex-prem b-cb",
 			"Слайд58.jpg"));
 	$return.push(getObject(
 			"Аллокация расходов блока 'Технологии' на Корпоративный бизнес",
@@ -215,7 +215,7 @@ function getSlides_e_201606() {
 			"Слайд62.jpg"));
 	$return.push(getObject(
 			"Прямые расходы на персонал (Розничный бизнес)",
-			"m-opex m-opex-pers b-rb",
+			"m-opex-pers b-rb",
 			"Слайд63.jpg"));
 	$return.push(getObject(
 			"Расходы по подразделениям (Розничный бизнес)",
@@ -223,15 +223,15 @@ function getSlides_e_201606() {
 			"Слайд64.jpg"));
 	$return.push(getObject(
 			"Прямые расходы на недвижимость (1/2) (Розничный бизнес)",
-			"m-opex m-opex-prem b-rb",
+			"m-opex-prem b-rb",
 			"Слайд65.jpg"));
 	$return.push(getObject(
 			"Прямые расходы на недвижимость (2/2) (Розничный бизнес)",
-			"m-opex m-opex-prem b-rb",
+			"m-opex-prem b-rb",
 			"Слайд66.jpg"));
 	$return.push(getObject(
 			"Недвижимость (Розничный бизнес)",
-			"m-opex m-opex-prem b-rb t-tb t-ca",
+			"m-opex-prem b-rb t-tb t-ca",
 			"Слайд67.jpg"));
 	$return.push(getObject(
 			"Аллокация расходов блока 'Технологии' на Розничный бизнес",
@@ -263,7 +263,7 @@ function getSlides_e_201606() {
 			"Слайд77.jpg"));
 	$return.push(getObject(
 			"Утвержденный план vs Скорректированный план (Сбербанк)",
-			"m-opex m-capex f-plan",
+			"m-opex m-capex o-plan",
 			"Слайд78.jpg"));
 	$return.push(getObject("Амортизация", "m-opex", "Слайд79.jpg"));
 	$return
@@ -273,42 +273,42 @@ function getSlides_e_201606() {
 					"Слайд80.jpg"));
 	$return.push(getObject(
 			"Капитальные затраты: Переформатирование сети ВСП (1/3)",
-			"m-opex m-opex-prem m-capex m-capex-prem",
+			"m-opex-prem m-capex-prem",
 			"Слайд81.jpg"));
 	$return.push(getObject(
 			"Капитальные затраты: Переформатирование сети ВСП (2/3)",
-			"m-opex m-opex-prem m-capex m-capex-prem b-tb",
+			"m-opex-prem m-capex-prem b-tb",
 			"Слайд82.jpg"));
 	$return.push(getObject(
 			"Капитальные затраты: Переформатирование сети ВСП (3/3)",
-			"m-opex m-opex-prem m-capex m-capex-prem b-tb",
+			"m-opex-prem m-capex-prem b-tb",
 			"Слайд83.jpg"));
 	$return.push(getObject(
 			"Статус проведения работы по договорам в рублях",
-			"m-opex m-opex-prem b-tb",
+			"m-opex-prem b-tb",
 			"Слайд84.jpg"));
 	$return.push(getObject(
 			"Статус проведения работы по договорам в валюте",
-			"m-opex m-opex-prem b-tb",
+			"m-opex-prem b-tb",
 			"Слайд85.jpg"));
 	$return.push(getObject(
 			"Освоение финансового лимита и лимита на открытие",
-			"m-opex m-opex-proj m-capex m-capex-proj",
+			"m-opex-proj m-capex-proj",
 			"Слайд86.jpg"));
 	$return
 			.push(getObject(
 					"Расходы и затраты по проектам в разрезе блоков",
-					"m-opex m-opex-proj m-capex m-capex-proj b-cib b-cb b-rb b-ub b-bmo b-t b-risk",
+					"m-opex-proj m-capex-proj b-cib b-cb b-rb b-ub b-bmo b-t b-risk",
 					"Слайд87.jpg"));
 	$return
 			.push(getObject(
 					"Исполнение по открытию программ, проектов в программах и вне программ (портфель 2016 года)",
-					"m-opex m-opex-proj m-capex m-capex-proj b-cib b-cb b-rb b-ub b-bmo b-t b-risk",
+					"m-opex-proj m-capex-proj b-cib b-cb b-rb b-ub b-bmo b-t b-risk",
 					"Слайд88.jpg"));
 	$return
 			.push(getObject(
 					"Шаги достижения результата по Программе «Эффективность/CIR30» для Корпоративного блока",
-					"p-cir b-cb",
+					"o-prog-cir b-cb",
 					"Слайд89.jpg"));
 	$return.push(getObject(
 			"Ключевые метрики для сравнения операционных расходов",
@@ -317,7 +317,7 @@ function getSlides_e_201606() {
 	$return
 			.push(getObject(
 					"Перечень показателей  по Малому бизнесу и Корпоративному бизнесу (исключая CIB) от Finalta",
-					"m-opex b-cb b-cb-small",
+					"m-opex b-cb-small",
 					"Слайд91.jpg"));
 	$return.push(getObject(
 			"Структура сети ВСП по типу населенных пунктов и численности",
@@ -345,7 +345,7 @@ function getSlides_o_20161003() {
 				$file,
 				'Оперативный отчет 2016-10-03',
 				'o_20161003/',
-				's-oper');
+				'o-s-oper');
 	}
 
 	var $return = [];
@@ -434,7 +434,7 @@ function getSlides_o_20161003() {
 			"Слайд27.jpg"));
 	$return.push(getObject(
 			"Ожидаемая динамика балансовых остатков",
-			"f-plan m-balance",
+			"o-plan m-balance",
 			"Слайд28.jpg"));
 	$return.push(getObject(
 			"Закрытые бухгалтерские балансовые данные",
@@ -479,11 +479,11 @@ function getSlides_o_20161003() {
 	$return
 			.push(getObject(
 					"Кредитный портфель. Крупные и Средние и РГС",
-					"m-balance c-corporate b-cb b-cb-large b-cb-medium b-cb-rgs a-loan",
+					"m-balance c-corporate b-cb-large b-cb-medium b-cb-rgs a-loan",
 					"Слайд42.jpg"));
 	$return.push(getObject(
 			"Кредитный портфель. ОПК И Малые",
-			"m-balance c-corporate b-cb b-cb-opk b-cb-small a-loan",
+			"m-balance c-corporate b-cb-opk b-cb-small a-loan",
 			"Слайд43.jpg"));
 	$return.push(getObject(
 			"Проблемная задолженность Корпоративных клиентов. NPL90+",
@@ -507,7 +507,7 @@ function getSlides_o_20161003() {
 			"Слайд48.jpg"));
 	$return.push(getObject(
 			"Заявки. Корпоративные клиенты",
-			"m-application c-corporate b-cb b-cb-small",
+			"m-application c-corporate b-cb-small",
 			"Слайд49.jpg"));
 	$return.push(getObject(
 			"Работа с заявками по новому кредитному процессу",
@@ -515,7 +515,7 @@ function getSlides_o_20161003() {
 			"Слайд50.jpg"));
 	$return.push(getObject(
 			"Работа с заявками малого и микробизнеса",
-			"m-application c-corporate b-cb b-cb-small",
+			"m-application c-corporate b-cb-small",
 			"Слайд51.jpg"));
 	$return.push(getObject(
 			"Обзор проведенных расчетов RAROC с КПКИ ЦА от 28.09.2016",
@@ -614,21 +614,21 @@ function getSlides_o_20161003() {
 			"Слайд74.jpg"));
 	$return.push(getObject(
 			"Устройства самообслуживания",
-			"c-retail b-rb t-tb ch-atm",
+			"c-retail b-rb t-tb o-ch-atm",
 			"Слайд75.jpg"));
 	$return
 			.push(getObject(
 					"Удаленные каналы обслуживания физических лиц (количество активных клиентов и % проникновения)",
-					"c-retail b-rb t-tb ch-remote",
+					"c-retail b-rb t-tb o-ch-remote",
 					"Слайд76.jpg"));
 	$return
 			.push(getObject(
 					"Удаленные каналы обслуживания (действующие подписки на автоплатеж и время ожидания)",
-					"c-retail b-rb t-tb ch-remote",
+					"c-retail b-rb t-tb o-ch-remote",
 					"Слайд77.jpg"));
 	$return.push(getObject(
 			"Реализация программы «Очередей.Нет!»",
-			"p-queue",
+			"o-prog-queue",
 			"Слайд78.jpg"));
 	$return.push(getObject(
 			"Отзывы о Сбербанке в социальных сетях",
@@ -636,7 +636,7 @@ function getSlides_o_20161003() {
 			"Слайд79.jpg"));
 	$return.push(getObject(
 			"Основные результаты блока Управление Благосостоянием",
-			"b-ub f-plan",
+			"b-ub o-plan",
 			"Слайд81.jpg"));
 	$return
 			.push(getObject(

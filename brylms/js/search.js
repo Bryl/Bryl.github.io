@@ -20,7 +20,8 @@ function search($filter) {
 
 				bFound = false;
 				for ( var iTag = 0; iTag < arr_tags.length; iTag++) {
-					if (arr_tags[iTag] === $filter[iFilter]) {
+
+					if (arr_tags[iTag].substr(0, $filter[iFilter].length) === $filter[iFilter]) {
 						bFound = true;
 					}
 				}
@@ -34,17 +35,30 @@ function search($filter) {
 		if (bInclude) {
 
 			arrReturn.push({
-
 				link : '<a href = "slides/' + item.file
 						+ '" target = "_blank">' + item.name + '</a>',
 				source : item.source
 			});
 
+			var objTags = {};
 			for ( var iTag = 0; iTag < arr_tags.length; iTag++) {
-				if (counts[arr_tags[iTag]] != undefined) {
-					counts[arr_tags[iTag]] = counts[arr_tags[iTag]] + 1;
+
+				var arrSubTags = arr_tags[iTag].split('-');
+				var sugTag = '';
+				for ( var iSubTag = 0; iSubTag < arrSubTags.length; iSubTag++) {
+
+					sugTag = sugTag + (iSubTag === 0 ? '' : '-');
+					sugTag = sugTag + arrSubTags[iSubTag];
+					objTags[sugTag] = "";
+
+				}
+			}
+
+			for (subTag in objTags) {
+				if (counts[subTag] !== undefined) {
+					counts[subTag] = counts[subTag] + 1;
 				} else {
-					counts[arr_tags[iTag]] = 1;
+					counts[subTag] = 1;
 				}
 			}
 
@@ -52,7 +66,7 @@ function search($filter) {
 	}
 
 	show(arrReturn);
-	
+
 	return {
 		//search : arrReturn,
 		counts : counts
@@ -75,7 +89,7 @@ function main() {
 		searching : true,
 		ordering : false,
 		bLengthChange : false,
-		pageLength: 15
+		pageLength : 15
 	});
 
 	var searchResults = search();
@@ -86,5 +100,5 @@ function main() {
 	$n.className = "width-100";
 
 	return searchResults['counts'];
-	
+
 }
