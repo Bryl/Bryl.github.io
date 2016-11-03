@@ -1,4 +1,10 @@
 ﻿function getObj($name, $tags, $file, $source, $path, $pres_tag) {
+
+	if ($tags.indexOf('t-tb') !== -1) {
+		$tags = $tags
+				+ ' t-bb t-vvb t-vsb t-db t-zsb t-zub t-mb t-pvb t-sevb t-szb t-skb t-sibb t-srb t-ub t-tcb t-uzb';
+	}
+
 	return {
 		name : $name,
 		tags : $pres_tag + ' ' + $tags,
@@ -69,10 +75,11 @@ function getSlides_e_201606() {
 			"Персонал – расходы по функциональным блокам",
 			"m-opex-pers b-cib b-cb b-rb b-bmo b-ub b-t b-risk",
 			"Слайд17.JPG"));
-	$return.push(getObject(
-			"Динамика численности",
-			"m-opex-pers",
-			"Слайд18.JPG"));
+	$return
+			.push(getObject(
+					"Динамика численности",
+					"m-opex-pers",
+					"Слайд18.JPG"));
 	$return.push(getObject(
 			"Численность функциональных блоков: Динамика",
 			"m-opex-pers b-cib b-cb b-rb b-bmo b-ub b-t b-risk",
@@ -134,10 +141,11 @@ function getSlides_e_201606() {
 			"Расходы по категориям. Транспорт",
 			"m-opex-other",
 			"Слайд37.JPG"));
-	$return.push(getObject(
-			"Благотворительность",
-			"m-opex-other",
-			"Слайд38.JPG"));
+	$return
+			.push(getObject(
+					"Благотворительность",
+					"m-opex-other",
+					"Слайд38.JPG"));
 	$return.push(getObject(
 			"Блок Т (OPEX/CAPEX)",
 			"m-opex m-capex b-t",
@@ -295,11 +303,10 @@ function getSlides_e_201606() {
 			"Освоение финансового лимита и лимита на открытие",
 			"m-opex-proj m-capex-proj",
 			"Слайд86.JPG"));
-	$return
-			.push(getObject(
-					"Расходы и затраты по проектам в разрезе блоков",
-					"m-opex-proj m-capex-proj b-cib b-cb b-rb b-ub b-bmo b-t b-risk",
-					"Слайд87.JPG"));
+	$return.push(getObject(
+			"Расходы и затраты по проектам в разрезе блоков",
+			"m-opex-proj m-capex-proj b-cib b-cb b-rb b-ub b-bmo b-t b-risk",
+			"Слайд87.JPG"));
 	$return
 			.push(getObject(
 					"Исполнение по открытию программ, проектов в программах и вне программ (портфель 2016 года)",
@@ -476,11 +483,10 @@ function getSlides_o_20161003() {
 			"Выдачи кредитов. КБ",
 			"m-balance c-corporate b-cb a-loan",
 			"Слайд41.JPG"));
-	$return
-			.push(getObject(
-					"Кредитный портфель. Крупные и Средние и РГС",
-					"m-balance c-corporate b-cb-large b-cb-medium b-cb-rgs a-loan",
-					"Слайд42.JPG"));
+	$return.push(getObject(
+			"Кредитный портфель. Крупные и Средние и РГС",
+			"m-balance c-corporate b-cb-large b-cb-medium b-cb-rgs a-loan",
+			"Слайд42.JPG"));
 	$return.push(getObject(
 			"Кредитный портфель. ОПК И Малые",
 			"m-balance c-corporate b-cb-opk b-cb-small a-loan",

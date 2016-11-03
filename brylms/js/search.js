@@ -7,6 +7,7 @@ function search($filter) {
 	var bInclude;
 	var bFound;
 	var counts = {};
+	var $total = 0;
 
 	for ( var i = 0; i < $slides.length; i++) {
 
@@ -34,6 +35,8 @@ function search($filter) {
 
 		if (bInclude) {
 
+			$total++;
+			
 			arrReturn.push({
 				link : '<a href = "slides/' + item.file
 						+ '" target = "_blank">' + item.name + '</a>',
@@ -67,6 +70,8 @@ function search($filter) {
 
 	show(arrReturn);
 
+	$('#Qty').text($total);
+	
 	return {
 		//search : arrReturn,
 		counts : counts

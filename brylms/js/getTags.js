@@ -13,7 +13,7 @@
 
 	/* ПОКАЗАТЕЛИ */
 	function setMeasures() {
-		
+
 		$return.push(getObject('Показатели', 'm', 1, 'NEWLINE'));
 		$return.push(getObject('Summary', 'm-summary', 2));
 		$return.push(getObject('Макро', 'm-macro', 2));
@@ -89,8 +89,26 @@
 	/* РЕГИОН */
 	function setRegions() {
 		$return.push(getObject('Регион', 't', 1, 'NEWLINE'));
-		$return.push(getObject('Тер. банки', 't-tb', 2));
 		$return.push(getObject('ЦА', 't-ca', 2));
+		$return.push(getObject('Тер. банки', 't-tb', 2));
+		//$return.push(getObject('Тер. банки', 't-tb', 2));
+
+		$return.push(getObject('ББ', 't-bb', 2));
+		$return.push(getObject('ВВБ', 't-vvb', 2));
+		$return.push(getObject('ВСБ', 't-vsb', 2));
+		$return.push(getObject('ДБ', 't-db', 2));
+		$return.push(getObject('ЗСБ', 't-zsb', 2));
+		$return.push(getObject('ЗУБ', 't-zub', 2));
+		$return.push(getObject('МБ', 't-mb', 2));
+		$return.push(getObject('ПВБ', 't-pvb', 2));
+		$return.push(getObject('СевБ', 't-sevb', 2));
+		$return.push(getObject('СЗБ', 't-szb', 2));
+		$return.push(getObject('СКБ', 't-skb', 2));
+		$return.push(getObject('СибБ', 't-sibb', 2));
+		$return.push(getObject('СРБ', 't-srb', 2));
+		$return.push(getObject('УБ', 't-ub', 2));
+		$return.push(getObject('ЦЧБ', 't-tcb', 2));
+		$return.push(getObject('ЮЗБ', 't-uzb', 2));
 
 	}
 
