@@ -29,7 +29,7 @@ document
 if (document.getElementsByClassName("featured__column").length > 2) {
 	document.getElementsByClassName("featured__column")[2].style.display = "none";
 };
-document.getElementsByClassName("global__image-outer-wrap--avatar-small")[0].style.display = "none";
+//document.getElementsByClassName("global__image-outer-wrap--avatar-small")[0].style.display = "none";
 
 for ( var i = 0; i < document
 		.getElementsByClassName("featured__heading__small").length; i++) {
